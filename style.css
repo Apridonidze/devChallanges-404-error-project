@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+    height: auto;
+    padding-top: 120px;
+    margin: 0;
+}
+.container-left img{
+    width: 100%;
+    max-width: 900px;
+}
+.container-right {
+    width: 100%;
+    max-width: 700px;
+}
+.container-right h1 {
+    font-size: 72px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+}
+.container-right h2 {
+    font-size: 32px;
+    text-align: left;
+    width: 100%;
+    font-weight: lighter;
+    color:#4f4f4f ;
+    max-width: 420px;
+}
+.container-right button {
+    color: white;
+    font-size: 16px;
+    font-weight:400;
+    background-color: #333333;
+    padding: 15px 25px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.footer-text {
+    width: 100%;
+    color: #4f4f4f;
+    justify-content: center;
+    text-align: center;
+}
+span {
+    color: #333333;
+    text-decoration: underline;
+}
+@media (max-width:480px) {
+    body {
+        height: 100vh;
+    }
+    .container {
+        padding:0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: left;
+        margin: 0px;
+        }
+    .container-right h1{
+        margin: 0;
+        padding: 10px;
+        font-size: 62px;
+    }
+    .container-right h2 {
+        font-size: 24px;
+        width: 100%;
+        max-width: 360px;
+        padding: 10px;
+    }
+    .container-right button {
+        width: 100%;
+        max-width: 260px;
+        height: 60px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .footer-text {
+        width: 100%;
+        color: #4f4f4f;
+        justify-content: center;
+        margin-top: 140px;
+        text-align: center;
+    }
+}
+@media (max-width:810px) {
+    body {
+        height: 100vh;
+    }
+    .container {
+        margin: auto;
+        padding-top: 25%;
+    }
+    .container-right h1 {
+        font-size: 52px;
+    }
+    .container-right h2 {
+        font-size: 22px;
+    }
+    .footer-text {
+        width: 100%;
+        color: #4f4f4f;
+        justify-content: center;
+        margin-top: 480px;
+        text-align: center;
+    }
+}
